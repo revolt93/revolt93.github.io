@@ -54,6 +54,8 @@ a:active,
 a:focus {
     text-decoration: none;
     outline: none;
+    font-size: 17px;
+    font-weight: 500;
 }
 .btn.extra-width {
     padding: 13px 40px;
@@ -68,7 +70,7 @@ a:focus {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /*    direction: rtl;*/
+
 }
 p {
     margin: 0 0 15px;
@@ -104,6 +106,7 @@ h3 {
     font-family: 'big_johnregular';
     font-weight: 300;
     margin: 0;
+    color: black;
 }
 h4,
 h5 {
@@ -302,6 +305,7 @@ Button
 	background-color:none;
 	color: #000;
 	text-decoration: none;
+
 }
 
 .btn-primary {
@@ -360,6 +364,7 @@ Button
 	border:1px solid #bfc2c5;
 	color:#222222;
 	background:#bfc2c5;
+
 }
 /*
 Extra height css
@@ -458,7 +463,8 @@ h1 span {
 
 .main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color:#fff;
-	background-color:transparent;
+	background-color: black;
+    border: 1px solid black;
 }
  
 .menu-scroll.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -479,6 +485,8 @@ h1 span {
 	font-family: 'big_johnregular';
 	text-transform:uppercase;
 	font-size:18px;
+    color: black;
+
 }
 
 
@@ -512,59 +520,14 @@ h1 span {
     left: 33%;
     top: 136px;
     background: #fad663;
-    border: 2px solid #000;
+    border: 3px solid #000;
     border-radius: 15px 15px 15px 15px;
 }
-
-
-/* Scroll Down*/
-.scrolldown {
-	padding-top: 24px;
-}
-.home .scroll_btn:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat;
-	opacity: .85;
-	-moz-opacity: .85;
-	-o-opacity: .85;
-	-webkit-opacity: .85;
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-
-}
-
-.scroll_btnall {
-	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215, 181 ,94, 0);
-	border: 2px solid #fff;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	display: block;
-	height: 45px;
-	margin: 42px auto;
-	width: 45px;
-}
-
-.scroll_btnall:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat #000;
-	opacity: .85;
-	-moz-opacity: .85;
-	-o-opacity: .85;
-	-webkit-opacity: .85;
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-
-}
-
 
 /* head title */
 .head_title{
     overflow:hidden;
 }
-
 
 /* What i do */
 
@@ -625,13 +588,16 @@ h1 span {
     display: inline-block;
     height: 15px;
     margin-top: 60px;
+    font-size: 18px;
+    font-family: 'big_johnregular';
+
 }
 .btn_bg a{
     position: absolute;
     left: 42%;
     top: -50px;
     background: #fad663;
-    border: 2px solid #000;
+    border: 3px solid #000;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -701,6 +667,8 @@ h1 span {
 
 .contact_message{
 	margin-top:145px;
+    font-family: 'big_johnregular';
+
 }
 .message_btn{
 	width:100%;
@@ -720,7 +688,7 @@ h1 span {
     left: 35%;
     top: -50px;
     background: #fad663;
-    border: 2px solid #000;
+    border: 3px solid #000;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -729,6 +697,8 @@ h1 span {
 .footer_copyright{
 	overflow:hidden;
 	margin-top:110px;
+    font-family: 'big_johnregular';
+    color: black; 
 }
 
 .single_copyirgth ul{
@@ -749,7 +719,9 @@ h1 span {
 	border-radius:10px;
 }
 .single_copyirgth ul li a:hover{
-	color:#ffd600;
+	color:#fff;
+    border: 1px solid black;
+    background: black;
 }
 
 .single_copyirgth p{
@@ -897,6 +869,7 @@ h1 span {
     h2 {
         font-size: 40px;
         line-height: 5rem;
+
     }
     .contact_message {
         margin-top: 0px;
